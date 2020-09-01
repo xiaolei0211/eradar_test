@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="case common service SecurityAccess_unlocked_L4">
+	<case title="SecurityAccess_unlocked_L4_Request_Seed">
+        <tx_id>667</tx_id>
+        <tx_data>02 27 07 00 00 00 00 00</tx_data>
+        <wait_time>50</wait_time>
+        <rx_id>677</rx_id>
+        <rx_data>06 67 07 04 2B 34 28 00</rx_data>
+    </case>
+	<case title="SecurityAccess_unlocked_L4_Send_Key">
+        <tx_id>667</tx_id>
+        <tx_data>06 27 08 04 2B 49 0F 00</tx_data>
+        <wait_time>50</wait_time>
+        <rx_id>677</rx_id>
+        <rx_data>02 67 08 00 00 00 00 00</rx_data>
+    </case>
+</test>

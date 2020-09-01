@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="PositiveResponseSuppressionBit">
+    <case title="6.2.1 Suppress_Positive_Response_Suppression_Bit_TesterPresent_Send_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+    <case title="6.2.2 Suppress_Positive_Response_Suppression_Bit_ControlDTCSetting_On_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 81</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+    <case title="6.2.3 Suppress_Positive_Response_Suppression_Bit_ControlDTCSetting_Off_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 82</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+    <case title="6.2.4 Suppress_Positive_Response_Suppression_Bit_ControlDTCSetting_Off_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>11 81</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+    <case title="6.2.5 Suppress_Positive_Response_Suppression_Bit_DefaultSession_Start_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 81</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+    <case title="6.2.6 Suppress_Positive_Response_Suppression_Bit_ProgrammingSession_Start_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 82</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+    <case title="6.2.7 Suppress_Positive_Response_Suppression_Bit_ExtendedDiagnosticSession_Start_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 83</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+    <case title="6.2.8 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_DefaultSession_Start_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 81 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 13</rx_data>		
+    </case>
+    <case title="6.2.9 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_ProgrammingSession_Start_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 82 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 13</rx_data>		
+    </case>
+    <case title="6.2.10 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_ExtendedDiagnosticSession_Start_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 83 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 13</rx_data>		
+    </case>
+    <case title="6.2.11 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_Hard_Reset_Reset_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>11 81 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 11 13</rx_data>		
+    </case>
+    <case title="6.2.12 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_enableRxAndDisableTx_Control">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 81</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 13</rx_data>			
+    </case>
+    <case title="6.2.13 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_enableRxAndDisableTx_Control_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 81 01 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 13</rx_data>		
+    </case>
+    <case title="6.2.14 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_EnableRxAndEnableTx_Control">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 13</rx_data>		
+    </case>
+    <case title="6.2.15 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_EnableRxAndEnableTx_Control_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 80 01 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 13</rx_data>		
+    </case>
+    <case title="6.2.16 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_TesterPresent_Send_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 80 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 3E 13</rx_data>		
+    </case>
+    <case title="6.2.17 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_ControlDTCSetting_On_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 81 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 13</rx_data>		
+    </case>
+    <case title="6.2.18 Suppress_Positive_Response_Suppression_Bit___Invalid_condition_ControlDTCSetting_Off_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 82 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 13</rx_data>		
+    </case>
+    <case title="6.2.19 Suppress_Positive_Response_Suppression_Bit_CommunicationControl_enableRxAndDisableTx_Control_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 81 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>NULL</rx_data>		
+    </case>
+</test>

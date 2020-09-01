@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>bus_on.png</file>
+  </qresource>
+</RCC>

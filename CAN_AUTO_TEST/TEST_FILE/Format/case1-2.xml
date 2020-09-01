@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="Invalid_Message_Format_Multiple_Ids">
+    <case title="1.2.1 Invalid_Message_Format_Multiple_Ids_Generated">
+        <automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+        <automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+        <automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+        <tx_id>667</tx_id>
+        <tx_data>22 F0 12 F0 13 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.2 Invalid_Message_Format_Multiple_Ids_Generated_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 12 F0 13 F1 5B 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.3 Invalid_Message_Format_Multiple_Ids_Generated_3">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 12 F0 13 F1 5B F1 86 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.4 Invalid_Message_Format_Multiple_Ids_Generated_4">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 12 F0 13 F1 5B F1 86 F1 87 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.5 Invalid_Message_Format_Multiple_Ids_Generated_5">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 13 F1 5B 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.6 Invalid_Message_Format_Multiple_Ids_Generated_6">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 13 F1 5B F1 86 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.7 Invalid_Message_Format_Multiple_Ids_Generated_7">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 13 F1 5B F1 86 F1 87 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.8 Invalid_Message_Format_Multiple_Ids_Generated_8">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 13 F1 5B F1 86 F1 87 F1 88 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.9 Invalid_Message_Format_Multiple_Ids_Generated_9">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 13 F1 5B F1 86 F1 87 F1 88 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.10 Invalid_Message_Format_Multiple_Ids_Generated_10">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F1 5B F1 86 F1 87 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>	
+	<case title="1.2.11 Invalid_Message_Format_Multiple_Ids_Generated_11">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F1 5B F1 86 F1 87 F1 88 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.12 Invalid_Message_Format_Multiple_Ids_Generated_12">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F1 5B F1 86 F1 87 F1 88 F1 8A 00</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>
+	<case title="1.2.13 Invalid_Message_Format_Multiple_Ids_Generated_13">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>SecurityAccess_unlocked_L1</automatic_SecurityAccess_Change>
+		<tx_id>667</tx_id>
+		<tx_data>22 F0 12 01 00 F0 13</tx_data>
+		<wait_time>100</wait_time>
+		<rx_id>677</rx_id>
+		<rx_data>03 7F 22 13</rx_data>
+    </case>	
+</test>

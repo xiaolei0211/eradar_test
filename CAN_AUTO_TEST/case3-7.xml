@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="Fault_Memory">
+    <case title="3.7.1 ReadDTCByStatusMask_FaultMemory_ReadAllIdentified">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 02</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>C5 02</rx_data>
+    </case>
+</test>

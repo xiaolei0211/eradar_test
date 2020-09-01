@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="case common service default session">
+    <case title="DefaultSession">
+        <tx_id>767</tx_id>
+        <tx_data>02 10 01 00 00 00 00 00</tx_data>
+        <wait_time>50</wait_time>
+        <rx_id>777</rx_id>
+        <rx_data>06 50 01 00 32 01 F4 00</rx_data>
+		<delay_time>1500</delay_time>
+    </case>
+</test>

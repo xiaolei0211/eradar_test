@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="InvalidProtocolServices">
+    <case title="5.5.1 InvalidProtocolServices_Undefined_Service_0x00_0x00">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>00 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 00 11</rx_data>		
+    </case>
+    <case title="5.5.2 InvalidProtocolServices_Undefined_Service_0x01_0x00">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>01 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 01 11</rx_data>		
+    </case>
+    <case title="5.5.3 InvalidProtocolServices_Undefined_Service_0x02_0x00">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>02 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 02 11</rx_data>		
+    </case>
+    <case title="5.5.4 InvalidProtocolServices_Undefined_Service_0x00_0x00_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>00 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 00 11</rx_data>		
+    </case>
+    <case title="5.5.5 InvalidProtocolServices_Undefined_Service_0x01_0x00_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>01 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 01 11</rx_data>		
+    </case>
+    <case title="5.5.6 InvalidProtocolServices_Undefined_Service_0x02_0x00_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>02 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 02 11</rx_data>		
+    </case>
+</test>

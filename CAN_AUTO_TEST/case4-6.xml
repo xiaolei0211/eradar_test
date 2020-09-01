@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="SessionAccessDenied">
+    <case title="4.6.1 SessionAccessDenied_SeedLevel1_Request_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 03</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 7F</rx_data>
+    </case>
+    <case title="4.6.2 SessionAccessDenied_KeyLevel1_Send_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 04</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 7F</rx_data>
+    </case>
+    <case title="4.6.3 SessionAccessDenied_enableRxAndDisableTx_Control_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 01 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 7F</rx_data>
+    </case>
+    <case title="4.6.4 SessionAccessDenied_enableRxAndDisableTx_Control_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 01 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 7F</rx_data>
+    </case>
+    <case title="4.6.5 SessionAccessDenied_EnableRxAndEnableTx_Control_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 00 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 7F</rx_data>
+    </case>
+    <case title="4.6.6 SessionAccessDenied_EnableRxAndEnableTx_Control_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 00 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 7F</rx_data>
+    </case>
+    <case title="4.6.7 SessionAccessDenied_Blind_spot_detection_module_I_O_status_ReturnControl_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>2F 76 42 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 7F</rx_data>
+    </case>
+    <case title="4.6.8 SessionAccessDenied_Blind_spot_detection_module_I_O_status_ReturnControl_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>2F 76 42 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 2F 7F</rx_data>
+    </case>
+    <case title="4.6.9 SessionAccessDenied_Blind_spot_detection_module_I_O_status_Control_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>2F 76 42 03 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 2F 7F</rx_data>
+    </case>
+    <case title="4.6.10 SessionAccessDenied_Blind_spot_detection_module_I_O_status_Control_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>2F 76 42 03 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 2F 7F</rx_data>
+    </case>
+    <case title="4.6.11 SessionAccessDenied_ControlDTCSetting_On_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 7F</rx_data>
+    </case>
+    <case title="4.6.12 SessionAccessDenied_ControlDTCSetting_On_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 7F</rx_data>
+    </case>
+    <case title="4.6.13 SessionAccessDenied_ControlDTCSetting_Off_Default">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 02</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 7F</rx_data>
+    </case>
+    <case title="4.6.14 SessionAccessDenied_ControlDTCSetting_Off_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 02</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 7F</rx_data>
+    </case>
+    <case title="4.6.15 SessionAccessDenied_FaultMemory_ReadAllIdentified_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 02 09</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 7F</rx_data>
+    </case>
+    <case title="4.6.16 SessionAccessDenied_FaultMemory_ReadAllSupported_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 0A</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 7F</rx_data>
+    </case>
+    <case title="4.6.17 SessionAccessDenied_FaultMemory_Clear_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>14 FF FF FF</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 14 7F</rx_data>
+    </case>
+    <case title="4.6.18 SessionAccessDenied_ExtendedDiagnosticSession_Start_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 03</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 7E</rx_data>
+    </case>
+    <case title="4.6.19 SessionAccessDenied_Vehicle_manufacturer_ECU_software_number_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 F1 88</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.20 SessionAccessDenied_ECU_core_assembly_number_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 F1 11</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.21 SessionAccessDenied_ECU_serial_number_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 F1 8C</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.22 SessionAccessDenied_Vehicle_Manufacturer_Calibration_Version_Number_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 F0 33</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.23 SessionAccessDenied_Vehicle_Manufacturer_Calibration_Version_Number_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 F0 33</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.24 SessionAccessDenied_BSD_parameter_configuration_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 40</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.25 SessionAccessDenied_Yaw_rate_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 41</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.26 SessionAccessDenied_ECU_power_supply_voltage_sub_module_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 43</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.27 SessionAccessDenied_Blind_spot_detection_module_I_O_status_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 42</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.28 SessionAccessDenied_Internal_temperature_sub_module_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 44</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.29 SessionAccessDenied_LCA_system_state_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 45</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.30 SessionAccessDenied_Internal_temperature_main_module_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 48</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.31 SessionAccessDenied_ECU_power_supply_voltage_main_module_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 4A</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.32 SessionAccessDenied_Auto_aiming_angle_A_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 4B</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.33 SessionAccessDenied_Auto_aiming_angle_B_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 4C</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+    <case title="4.6.34 SessionAccessDenied_Auto_aiming_angle_B_Read_Programming">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>22 76 4D</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 22 31</rx_data>
+    </case>
+</test>

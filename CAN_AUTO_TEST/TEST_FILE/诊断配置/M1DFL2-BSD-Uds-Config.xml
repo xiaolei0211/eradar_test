@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config shelf="M1DFL2-BSD-UDS-CONFIG">
+    <case title="Addressing">
+        <tx_phy_id>767</tx_phy_id>
+        <tx_func_id>7DF</tx_func_id>
+    </case>
+	<case title="$22 Read">
+        <read_did>7640</read_did>
+        <read_did>7641</read_did>
+    </case>
+</config>

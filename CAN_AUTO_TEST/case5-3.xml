@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test shelf="InvalidSubfunctions">
+    <case title="5.3.1 Invalid_Subfunctions_Invalid_Subfunction_0x10_0x00">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 12</rx_data>		
+    </case>
+    <case title="5.3.2 Invalid_Subfunctions_Invalid_Subfunction_0x10_0x04">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 04</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 12</rx_data>		
+    </case>
+    <case title="5.3.3 Invalid_Subfunctions_Invalid_Subfunction_0x10_0x05">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 05</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 12</rx_data>		
+    </case>
+    <case title="5.3.4 Invalid_Subfunctions_Invalid_Subfunction_0x19_0x00">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 00 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 12</rx_data>		
+    </case>
+    <case title="5.3.5 Invalid_Subfunctions_Invalid_Subfunction_0x19_0x01">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 01 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 12</rx_data>		
+    </case>
+    <case title="5.3.6 Invalid_Subfunctions_Invalid_Subfunction_0x19_0x03">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>DefaultSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 03 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 12</rx_data>		
+    </case>
+    <case title="5.3.7 Invalid_Subfunctions_Invalid_Subfunction_0x27_0x00">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 12</rx_data>		
+    </case>
+    <case title="5.3.8 Invalid_Subfunctions_Invalid_Subfunction_0x27_0x01">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 12</rx_data>		
+    </case>
+    <case title="5.3.9 Invalid_Subfunctions_Invalid_Subfunction_0x27_0x02">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ProgrammingSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 02</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 12</rx_data>		
+    </case>
+    <case title="5.3.10 Invalid_Subfunctions_Invalid_Subfunction_0x28_0x02">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 02 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 12</rx_data>		
+    </case>
+    <case title="5.3.11 Invalid_Subfunctions_Invalid_Subfunction_0x28_0x03">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 03 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 12</rx_data>		
+    </case>
+    <case title="5.3.12 Invalid_Subfunctions_Invalid_Subfunction_0x28_0x04">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 04 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 12</rx_data>		
+    </case>
+    <case title="5.3.13 Invalid_Subfunctions_Invalid_Subfunction_0x3e_0x01">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 3E 12</rx_data>		
+    </case>
+    <case title="5.3.14 Invalid_Subfunctions_Invalid_Subfunction_0x3e_0x02">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 02</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 3E 12</rx_data>		
+    </case>
+    <case title="5.3.15 Invalid_Subfunctions_Invalid_Subfunction_0x3e_0x03">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 03</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 3E 12</rx_data>		
+    </case>
+    <case title="5.3.16 Invalid_Subfunctions_Invalid_Subfunction_0x85_0x00">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 12</rx_data>		
+    </case>
+    <case title="5.3.17 Invalid_Subfunctions_Invalid_Subfunction_0x85_0x03">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 03</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 12</rx_data>		
+    </case>
+    <case title="5.3.18 Invalid_Subfunctions_Invalid_Subfunction_0x85_0x04">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 04</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 12</rx_data>		
+    </case>
+    <case title="5.3.19 Invalid_Subfunctions_Invalid_Subfunction_0x10_0x00_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 12</rx_data>		
+    </case>
+    <case title="5.3.20 Invalid_Subfunctions_Invalid_Subfunction_0x10_0x04_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 84</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 12</rx_data>		
+    </case>
+    <case title="5.3.21 Invalid_Subfunctions_Invalid_Subfunction_0x10_0x05_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>10 85</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 10 12</rx_data>		
+    </case>
+    <case title="5.3.22 Invalid_Subfunctions_Invalid_Subfunction_0x19_0x00_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 80 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 12</rx_data>		
+    </case>
+    <case title="5.3.23 Invalid_Subfunctions_Invalid_Subfunction_0x19_0x01_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 81 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 12</rx_data>		
+    </case>
+    <case title="5.3.24 Invalid_Subfunctions_Invalid_Subfunction_0x19_0x03_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>19 83 00</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 19 12</rx_data>		
+    </case>
+    <case title="5.3.25 Invalid_Subfunctions_Invalid_Subfunction_0x27_0x00_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 12</rx_data>		
+    </case>
+    <case title="5.3.26 Invalid_Subfunctions_Invalid_Subfunction_0x27_0x01_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 81</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 12</rx_data>		
+    </case>
+    <case title="5.3.27 Invalid_Subfunctions_Invalid_Subfunction_0x27_0x02_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>27 82</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 27 12</rx_data>		
+    </case>
+    <case title="5.3.28 Invalid_Subfunctions_Invalid_Subfunction_0x28_0x02_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 82 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 12</rx_data>		
+    </case>
+    <case title="5.3.29 Invalid_Subfunctions_Invalid_Subfunction_0x28_0x03_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 83 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 12</rx_data>		
+    </case>
+    <case title="5.3.30 Invalid_Subfunctions_Invalid_Subfunction_0x28_0x04_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>28 84 01</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 28 12</rx_data>		
+    </case>
+    <case title="5.3.31 Invalid_Subfunctions_Invalid_Subfunction_0x3e_0x01_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 81</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 3E 12</rx_data>		
+    </case>
+    <case title="5.3.32 Invalid_Subfunctions_Invalid_Subfunction_0x3e_0x02_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 82</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 3E 12</rx_data>		
+    </case>
+    <case title="5.3.33 Invalid_Subfunctions_Invalid_Subfunction_0x3e_0x03_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>3E 83</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 3E 12</rx_data>		
+    </case>
+    <case title="5.3.34 Invalid_Subfunctions_Invalid_Subfunction_0x85_0x00_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 80</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 12</rx_data>		
+    </case>
+    <case title="5.3.35 Invalid_Subfunctions_Invalid_Subfunction_0x85_0x03_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 83</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 12</rx_data>		
+    </case>
+    <case title="5.3.36 Invalid_Subfunctions_Invalid_Subfunction_0x85_0x04_2">
+		<automatic_ecu_reset>ECUReset</automatic_ecu_reset>
+		<automatic_State_Change>ExtendedDiagnosticSession</automatic_State_Change>
+		<automatic_SecurityAccess_Change>Locked</automatic_SecurityAccess_Change>
+		<tx_id>767</tx_id>
+		<tx_data>85 84</tx_data>
+		<wait_time>50</wait_time>
+		<rx_id>777</rx_id>
+		<rx_data>7F 85 12</rx_data>		
+    </case>
+</test>

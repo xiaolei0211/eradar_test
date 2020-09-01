@@ -1,0 +1,94 @@
+< Read Data By Identifier >
+667 8 03 22 F0 12 55 55 55 55 22.847
+677 8 10 10 62 F0 12 37 30 34 22.848
+667 8 30 00 00 55 55 55 55 55 22.852
+677 8 21 30 30 30 33 38 36 20 22.858
+677 8 22 30 30 31 00 00 00 00 22.868
+-->Lenght:13 Byte
+-->  0: 37 30 34 30 30 30 33 38 | 70400038
+-->  8: 36 20 30 30 31          | 6 001
+
+< Read Data By Identifier >
+667 8 10 0E 22 F0 12 F0 12 F0 55.155
+677 8 30 08 00 00 00 00 00 00 55.158
+667 8 21 12 F0 12 F0 12 F0 12 55.158
+667 8 22 F0 55 55 55 55 55 55 55.159
+677 8 03 7F 22 13 00 00 00 00 55.168
+-->NRC13, Incorrect Message Length Or Invalid Format
+
+< Read DTC Information >
+-->Report DTC By Status Mask
+667 8 03 19 02 09 55 55 55 55 111.933
+677 8 10 27 59 02 09 92 40 15 111.937
+667 8 30 00 00 55 55 55 55 55 111.942
+677 8 21 08 92 42 96 08 C1 01 111.947
+677 8 22 87 08 C1 22 87 08 C1 111.957
+677 8 23 40 87 08 C1 51 87 08 111.967
+677 8 24 C1 55 87 08 C2 12 87 111.977
+677 8 25 08 C2 48 87 09 00 00 111.987
+-->DTC Analyze
+-->DTC Number:9
+$924015 08 warming led open circuit short  to bettery
+$924296 08 BSD internal failure
+$C10187 08 Lost communication with tcu
+$C12287 08 Lost communication with esc
+$C14087 08 Lost communication with bcm
+$C15187 08 Lost communication with acm
+$C15587 08 Lost communication with ipc
+$C21287 08 Lost communication with scm
+$C24887 09 Lost communication with peps
+
+< Read DTC Information >
+-->Report Supported DTC
+667 8 02 19 0A 55 55 55 55 55 114.474
+677 8 10 77 59 0A 09 92 40 11 114.477
+667 8 30 00 00 55 55 55 55 55 114.479
+677 8 21 00 92 40 15 08 92 41 114.487
+677 8 22 1C 00 92 42 43 00 92 114.497
+677 8 23 42 44 00 92 42 45 00 114.507
+677 8 24 92 42 46 00 92 42 57 114.517
+677 8 25 00 92 42 96 08 92 43 114.527
+677 8 26 78 00 92 43 97 00 92 114.537
+677 8 27 44 F0 00 92 45 55 00 114.547
+677 8 28 C1 01 87 08 C1 22 87 114.557
+677 8 29 08 C1 40 87 08 C1 51 114.567
+677 8 2A 87 08 C1 55 87 08 C2 114.577
+677 8 2B 12 87 08 C2 48 87 09 114.587
+677 8 2C C4 02 81 00 C4 16 81 114.597
+677 8 2D 00 C4 22 81 00 C4 23 114.607
+677 8 2E 81 00 C4 26 81 00 C4 114.617
+677 8 2F 29 81 00 C4 52 81 00 114.627
+677 8 20 D2 40 88 00 D2 41 88 114.637
+677 8 21 00 00 00 00 00 00 00 114.647
+-->DTC Analyze
+-->DTC Number:29
+$924011 00 warming led short to ground
+$924015 08 warming led open circuit short  to bettery
+$92411C 00 ECU supply voltage out of range
+$924243 00 Non volatile memory failure(eeprom error)
+$924244 00 Data integrity fault in volatile memory(Ram)
+$924245 00 Code flash error
+$924246 00 Local configuration parameters invalid
+$924257 00 incompatible software component
+$924296 08 BSD internal failure
+$924378 00 BSD misalignment error
+$924397 00 BSD blockage
+$9244F0 00 other bsd defected
+$924555 00 car configuration not done
+$C10187 08 Lost communication with tcu
+$C12287 08 Lost communication with esc
+$C14087 08 Lost communication with bcm
+$C15187 08 Lost communication with acm
+$C15587 08 Lost communication with ipc
+$C21287 08 Lost communication with scm
+$C24887 09 Lost communication with peps
+$C40281 00 invalid communication with tcu
+$C41681 00 invalid communication with esc
+$C42281 00 invalid communication with bcm
+$C42381 00 invalid communication with ipc
+$C42681 00 invalid communication with peps
+$C42981 00 invalid communication with scm
+$C45281 00 invalid communication with acm
+$D24088 00 vehicle can bus off
+$D24188 00 private can bus off
+
